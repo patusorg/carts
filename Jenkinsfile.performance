@@ -51,7 +51,7 @@ pipeline {
             }
           }
         }
-sleep 60
+sleep(60)
         perfSigDynatraceReports(
           envId: 'Dynatrace Tenant', 
           nonFunctionalFailure: 1, 
